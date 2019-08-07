@@ -1,0 +1,5 @@
+services:
+  patch_overview.commands:
+    class: \Drupal\patch_overview\Commands\PatchOverviewCommands
+    tags:
+      - { name: drush.command }
